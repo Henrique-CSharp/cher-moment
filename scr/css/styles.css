@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-principal {
+  padding: 10px;
+  
+  
+}
+
+.menu-principal ul {
+  background-color: black;
+  color:#FAFAFA;
+  position: relative;
+  display: flex;
+  justify-content:space-around;
+  list-style-type: none;
+
+}
+
+.menu-lista a:hover {
+  color: palegreen;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #FAFAFA;
+  font-size: 20px;
+  font-family:'Poppins', sans-serif;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #FAFAFA;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
+  color: #FAFAFA;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  color: #FAFAFA;
+  padding-top: 5px;
+  margin: 25px;
+  font-size: 25px;  
+}
+
+
+h4 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  color: #FAFAFA;
+  width: 150vh;
+  left: 18%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 50px;
+}
+
+.caixa-principal {
+  max-width: 200vh;
+  max-height: 500vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FAFAFA;
+  padding-bottom: 50px;
+}  
+
+.caixa-principal p {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 55px;
+  padding-right: 12px;
+  padding-bottom: 50px;
+}
+
+.lentilha-photo {
+  border-radius: 5%;
+}
+
+.box-lentilha {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 150px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+
+.box-lentilha span {
+  color: palegreen;
+}
+
+.cebola-photo {
+  border-radius: 5%;
+}
+
+.box-cebola {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 162px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+
+.box-cebola span {
+  color: palegreen;
+}
+
+.bourguignon-photo {
+  border-radius: 10%;
+
+}
+
+.box-bourguignon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 132px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+
+.box-bourguignon span {
+  color: palegreen;
+}
+
+.cassoulet-photo {
+  border-radius: 10%;
+ 
+}
+
+.box-cassoulet {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 195px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+
+.box-cassoulet span {
+  color: palegreen;
+}
+
+.quiche-photo {
+  border-radius: 10%;
+  
+}
+
+.box-quiche {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 89px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+
+.box-quiche span {
+  color: palegreen;
+}
+
+.coquilles-photo {
+  border-radius: 10%;
+}
+
+.box-coquilles {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 55px;
+  padding-bottom: 10px;
+}
+
+.box-coquilles span {
+  color: palegreen;
+}
+
+.titulo-rodape {
+  color: palegreen;
+  font-size: 50px;
+}
+
+
+.informacoesdaEmpresa img {
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  left: 250px;
+  padding-bottom: 50px;
+  border-radius: 10%;
+}
+
+
+.sobre-nos {
+  color: #FAFAFA;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sobre-nos span {
+  color:palegreen
+}

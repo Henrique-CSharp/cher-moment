@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* #FF0043 #FAFAFA #535353 Cores principais 
+   #100F10 #1B1B1B #242424 Cores Dark
+   rgba(#ff,0.96) rgba(#fff,0.67) rgba(#fff,0.45) */
+
+:root {
+    --cor0: #FAFAFA;
+    --cor1: #FF0043;
+    --cor2: #535353;
+    --cor3: #1B1B1B;
+    --cor4: #242424;
+    --cor5: #100F10;
+
+    --fonte-padrao: Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Poppins', sans-serif;
+
+}
+
+
+   body {
+    background-color: #fafafa;
+    font-family: var(--fonte-destaque);
+
+}
+
+   header {
+      background-color: #FAFAFA;
+      min-height: 50px;
+      padding-top: 40px;
+      font-size: 1.2em;
+
+}
+
+   header > h1 {
+    color:var(--cor5);
+    text-align: center;
+    text-shadow: 2px 2px 0px white;
+    padding: 50px;
+    
+}
+
+   nav {
+    background-color: #100F10;
+    text-align:center;
+
+}   
+    
+   nav > a {
+      display: block;
+      padding: 20px 5px;
+   
+}
+
+   main {
+    background-color: var(--cor5);
+}
+
+   main > article {
+      text-align: center;
+      padding: 10px;
+   
+   }
+
+   
+   #container {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top:80%;
+    left: 900px;
+
+   }
+
+
+   #texto {
+      position: absolute;
+      text-align: center;
+      line-height: 500px;
+      color: #FF0043;
+
+   }
+
+   #container2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 80%;
+    left: 900px;
+
+   }
+
+
+   #texto2 {
+      position: absolute;
+      text-align: center;
+      line-height: 500px;
+      color: #FF0043;
+
+   }
+
+   .pratosVeganos img {
+      width: 700px;
+      padding: 25px;
+      align-items: center;
+      text-align: center;
+      padding: 15px;
+      color:#FF0043;
+      
+      
+
+}
+
+    main h1 {
+    color: #fafafa;
+    text-align: center;
+    padding: 5px;
+    font-size: 2.5em;
+
+}
+
+    main h2 {
+      color: #fafafa;
+      text-align: center;
+
+}
+
+    main h3 {
+      color: #FAFAFA;
+      text-align: center;
+      padding: 15px;
+      
+}
+
+    main > article > h1 {
+      color: #FF0043;
+
+}
+
+   
+     
+
+
+
+
+   footer {
+    color: #100F10;
+    text-align:center;
+}
